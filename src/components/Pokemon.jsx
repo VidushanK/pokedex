@@ -5,7 +5,7 @@ class Pokemon extends Component {
       return (
         <div className="pokemon">
           <div className="pokemon_wrapper">
-            <img src={`../assets/sprites/1.png`} width={500} height={500}/>
+            <img src={require(`../assets/sprites/1.png`)} width={500} height={500}/>
           </div>
         </div>
       );
