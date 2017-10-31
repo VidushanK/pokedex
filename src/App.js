@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './assets/logo.svg';
 import Pokemon from './components/Pokemon.jsx';
+import PokemonList from './components/PokemonList.jsx';
 import './assets/styles/App.css';
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
           <h1 className="App-title">Pokédex</h1>
         </header>
         <Pokemon />
+        <PokemonList />
       </div>
     );
   }
