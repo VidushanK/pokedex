@@ -26,15 +26,6 @@ class PokemonList extends Component{
   }
   render(){
     const {type} = this.state;
-    // let content ;
-    // if(fetched){
-    //   content = <div className="pokemon--species--list">{species.map((pokemon,index)=><Pokemon key={pokemon.name} id={index+1} pokemon={pokemon}/>)}</div>;
-    // }else if(loading && !fetched){
-    //     content = <p> Loading ...</p>;
-    // }
-    // else{
-    //   content = <div/>;
-    // }
     return(<div className="pokemon--species--list">{type.map((pokemon,index)=><Pokemon key={pokemon.name} id={index+1} pokemon={pokemon}/>)}</div>)
   }
 }
